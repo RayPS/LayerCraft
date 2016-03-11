@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ExtensionManifest Version="4.0" ExtensionBundleId="LayerCraft" ExtensionBundleVersion="1.3" ExtensionBundleName="LayerCraft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Contact mailto="ray@rayps.com"/>
+    <Abstract href="http://lab.rayps.com/lc/"/>
+	<ExtensionList>
+		<Extension Id="layercraft" Version="1.3" />
+	</ExtensionList>
+	<ExecutionEnvironment>
+		<HostList>
+            <Host Name="PHXS" Version="[14.0,19.9]" />
+            <Host Name="PHSP" Version="[14.0,19.9]" />
+		</HostList>
+		<LocaleList>
+			<Locale Code="All" />
+		</LocaleList>
+		<RequiredRuntimeList>
+			<RequiredRuntime Name="CSXS" Version="4.0" />
+		</RequiredRuntimeList>
+	</ExecutionEnvironment>
+	<DispatchInfoList>
+		<Extension Id="layercraft">
+			<DispatchInfo >
+				<Resources>
+				<MainPath>./index.html</MainPath>
+				<ScriptPath>./jsx/core.jsxbin</ScriptPath>
+				</Resources>
+				<Lifecycle>
+					<AutoVisible>true</AutoVisible>
+				</Lifecycle>
+				<UI>
+					<Type>Panel</Type>
+					<Menu>LayerCraft</Menu>
+					<Geometry>
+						<Size>
+							<Height>140</Height>
+							<Width>200</Width>
+						</Size>
+                    <MinSize>
+                            <Height>140</Height>
+                            <Width>200</Width>
+                        </MinSize>
+                        <MaxSize>
+                            <Height>140</Height>
+                            <Width>200</Width>
+                        </MaxSize>
+
+					</Geometry>
+					<Icons>
+                        <Icon Type="Normal">./img/light.png</Icon>
+						<Icon Type="RollOver">./img/light.png</Icon>
+                        <Icon Type="DarkNormal">./img/dark.png</Icon>
+                        <Icon Type="DarkRollOver">./img/dark.png</Icon>
+					</Icons>
+				</UI>
+			</DispatchInfo>
+		</Extension>
+	</DispatchInfoList>
+</ExtensionManifest>
