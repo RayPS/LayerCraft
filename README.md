@@ -9,6 +9,8 @@
 
 #### 1. Download repo, unzip and move folder into the extensions folder
 
+[**Download**](https://github.com/RayPS/LayerCraft/archive/master.zip)
+
 	/Library/Application Support/Adobe/CEP/extensions
 	
 *(you may have to create folder if it doesn't already exist)*
@@ -35,6 +37,7 @@ Then press `return`
 
 
 #### 1. Download repo, unzip and move folder into the extensions folder
+[**Download**](https://github.com/RayPS/LayerCraft/archive/master.zip)
 
 	C:\Program Files (x86)\Common Files\Adobe\CEP\extensions
 
